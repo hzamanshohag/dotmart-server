@@ -1,8 +1,8 @@
 import { StatusCodes } from "http-status-codes";
 import sendResponse from "../../utils/sendResponse";
 import { announcementService } from "./announcement.service";
-import catchAsync from "../../utils/catchAsync";
 import { Request, Response } from "express";
+import catchAsync from '../../utils/catchAsync';
 
 const createAnnouncement = catchAsync(async (req: Request, res: Response) => {
   const result = await announcementService.createAnnouncement(req.body);

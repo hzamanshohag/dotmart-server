@@ -16,7 +16,12 @@ router.patch('/orders/:orderId/status', auth('ADMIN'), orderController.updateOrd
 router.patch('/orders/:orderId/payment', auth('ADMIN'), orderController.updatePaymentStatus);
 
 //payment verify
-router.get('/payment/success/:transactionId', auth('USER', 'ADMIN'), orderController.verifyPayment);
-router.get('/payment/webhook', auth('USER', 'ADMIN'), orderController.paymentWebhook);
+// router.get('/payment/success/:transactionId', orderController.paymentSuccess);
+// router.get('/payment/webhook', orderController.paymentWebhook);
+
+router.post('/payment/success/:transactionId', orderController.verifyPayment);
+router.post('/payment/fail/:transactionId', orderController.verifyPayment);
+
+// router.post('/payment/cancel/:transactionId', orderController.paymentCancel);
 
 export const OrderRoutes = router;

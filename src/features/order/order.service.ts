@@ -96,9 +96,9 @@ const createOrder = async (payload: CreateOrderPayload) => {
       cus_email: userInfo.email,
       cus_phone: userInfo.phoneNumber || '01700000000',
 
-      success_url: `${process.env.FRONTEND_DOMAIN}/user/payment/success?transactionId=${transactionId}`,
-      fail_url: `${process.env.FRONTEND_DOMAIN}/user/payment/fail?transactionId=${transactionId}`,
-      cancel_url: `${process.env.FRONTEND_DOMAIN}/checkout?transactionId=${transactionId}`,
+      success_url: `${process.env.FRONTEND_DOMAIN}/user/payment/success/${transactionId}`,
+      fail_url: `${process.env.FRONTEND_DOMAIN}/user/payment/fail/${transactionId}`,
+      cancel_url: `${process.env.FRONTEND_DOMAIN}/user/payment/cancel/${transactionId}`,
 
       type: 'json',
     };
