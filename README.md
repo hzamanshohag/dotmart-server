@@ -16,6 +16,10 @@
 The project follows a **monorepo architecture**, keeping both client and server in a single repository for easier development and maintenance.
 
 ---
+## 🌐 Live Demo
+
+- **Website:** https://dotmart.vercel.app/
+- **Backend API:** https://dotmart-server.vercel.app/
 
 ## 📂 Project Structure
 
@@ -59,8 +63,8 @@ dotmart/
 ## ⚙️ Getting Started
 
 ### 1️⃣ Clone the repository
-git clone https://github.com/hzamanshohag/dotmart.git
-cd dotmart
+https://github.com/hzamanshohag/dotmart-server.git
+cd dotmart-server
 
 ---
 
@@ -81,18 +85,10 @@ cd dotmart
 
 ---
 
-## ⚙️ Getting Started
-
-### 1️⃣ Clone the repository
-git clone https://github.com/hzamanshohag/dotmart.git
-cd dotmart
-
----
-
 ## 👨‍💻 Author
 
 **Md Hasanuzzaman Shohag**  
-Full-Stack MERN Developer  
+Full Stack Developer  
 
 🔗 **LinkedIn:** https://www.linkedin.com/in/hzaman-shohag
 
