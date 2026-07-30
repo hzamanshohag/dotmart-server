@@ -5,15 +5,14 @@
 <!-- <h1 align="center">Dot Mart 🛒</h1> -->
 
 <p align="center">
-  A full-stack e-commerce application built with modern web technologies
+  A full-stack single-vendor e-commerce application built with modern web technologies
 </p>
 
 ---
 
 ## 📖 Overview
 
-**Dot Mart** is a full-stack e-commerce application built with **Next.js** on the client side and **Node.js / Express** on the server side.  
-The project follows a **monorepo architecture**, keeping both client and server in a single repository for easier development and maintenance.
+**Dotmart** is a full-stack, single-vendor e-commerce platform built with **Next.js** for the frontend and **Node.js**, **Express.js**, and **MongoDB** for the backend. The application is organized using a **two-repository architecture**, with separate repositories for the client and server, ensuring better scalability, maintainability, and a streamlined development workflow.
 
 ---
 ## 🌐 Live Demo
