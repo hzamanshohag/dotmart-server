@@ -12,7 +12,7 @@
 
 ## 📖 Overview
 
-**Dotmart** is a full-stack, single-vendor e-commerce platform built with **Next.js** for the frontend and **Node.js**, **Express.js**, and **MongoDB** for the backend. The application is organized using a **two-repository architecture**, with separate repositories for the client and server, ensuring better scalability, maintainability, and a streamlined development workflow.
+**Dotmart** is a modern full-stack, single-vendor e-commerce platform developed with **Next.js** on the frontend and **Node.js**, **Express.js**, and **MongoDB** on the backend. The project is structured into separate client and server repositories, providing a clean architecture that improves scalability, maintainability, and the overall development experience.
 
 ---
 ## 🌐 Live Demo
